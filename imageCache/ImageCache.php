@@ -12,7 +12,7 @@
  * http://dtbaker.net/web-development/how-to-cache-images-generated-by-php/
  */
 
-ob_start();
+//ob_start();
 
 class ImageCache
 {
@@ -227,7 +227,7 @@ class ImageCache
 		imagecopy( $image_dest, $image_src, 0, 0, 0, 0, $image_width, $image_width );
 		switch( $file_mime_as_ext ) {
 			case 'jpeg':
-				$created = imagejpeg( $image_dest, $this->cached_filename, 85 );
+				$created = imagejpeg( $image_dest, $this->cached_filename,85 );
 				break;
 			case 'png':
 				$created = imagepng( $image_dest, $this->cached_filename, 8 );

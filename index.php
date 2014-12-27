@@ -1,3 +1,4 @@
+<?php ob_start( 'ob_gzhandler' ); require "imageCache/imageCache.php"; $img = new imageCache();?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -80,7 +81,9 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="img/gallery/100_7754.JPG" alt>
+
+                            <img src="<?php echo $img->cache('img/gallery/1.JPG')?>" alt>
+
                             <div class="carousel-caption">
                                 Primeira Imagem
                             </div>
