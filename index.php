@@ -209,28 +209,28 @@
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Name</label>
+                            <label>Nome</label>
                             <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor insira seu nome.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Email Address</label>
+                            <label>E-mail</label>
                             <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Phone Number</label>
+                            <label>Telefone</label>
                             <input type="tel" class="form-control" placeholder="Telefone (opcional)" id="phone">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Message</label>
+                            <label>Mensagem</label>
                             <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Deixe-nos uma mensagem."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
@@ -417,7 +417,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>=
 <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -434,20 +434,6 @@
                         <hr class="star-primary">
                         <img src="img/gallery/06.jpg" class="img-responsive img-centered" alt="">
                         <p>Qualidade e rapidez nos serviços.</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
