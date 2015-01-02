@@ -2372,7 +2372,7 @@ output {
 }
 /*MOD*/
 .form-control:focus {
-  border-color: #1315D3;
+  border-color: #d3554b;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(44, 62, 80, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(44, 62, 80, 0.6);
@@ -2892,11 +2892,12 @@ fieldset[disabled] .btn-primary.active {
   color: #2c3e50;
   background-color: #ffffff;
 }
+/*MOD*/
 .btn-success {
   color: #ffffff;
   background-color: #18bc9c;
-  border-color: #18bc9c;
 }
+/*MOD*/
 .btn-success:hover,
 .btn-success:focus,
 .btn-success.focus,
@@ -2904,8 +2905,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #81aad3;
 }
 .btn-success:active,
 .btn-success.active,

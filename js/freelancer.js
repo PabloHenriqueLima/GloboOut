@@ -47,7 +47,7 @@ $('.btn-consult').click(function (e) {
         var text = 'Senhor(a) <span>' + data.cliente + '</span>' +
             ' o seu equipamento: <span>' + data.equipamento + '</span>' +
             ' com entrada em: <span>'+ data.dataEntrada + '</span>' +
-            ' encontra-se com o status: <span>' + data.status;
+            ' encontra-se com o status: <br /><span>' + data.status;
         $('.content-consult').html(text);
     });
 });

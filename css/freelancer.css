@@ -252,23 +252,19 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #1315D3;
     font-size: 20px;
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
-.btn-outline:hover,
-.btn-outline:focus,
 .btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
+.btn-outline.active,
+.btn-outline:hover,
+.btn-outline:focus{
+    background-color: #81aad3;
+    color: #fff;
 }
 .btn-custom{
-    border: none !important;
     background-color: #81aad3;
     color: #fff;
 }
