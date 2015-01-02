@@ -14,7 +14,7 @@
     <title>Globo informática</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico"/>
     <!-- Custom CSS -->
@@ -187,7 +187,7 @@
 
             </div> <!-- Col-lg-8 -->
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">Consultar Status</a>
+                <a href="#" class="btn btn-lg btn-outline btn-custom">Consultar Status</a>
             </div>
         </div>
     </div>
@@ -407,7 +407,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Gerente e filha </h2>
+                        <h2>Diretor-Presidente e funcionaria</h2>
                         <hr class="star-primary">
                         <img src="img/gallery/05.jpg" class="img-responsive img-centered" alt="">
                         <p>Profissionais qualificados.</p>

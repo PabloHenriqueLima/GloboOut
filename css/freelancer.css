@@ -27,13 +27,13 @@ a.active {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #1315D3;
 }
 
 hr.star-light,
@@ -58,21 +58,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #1315D3;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #1315D3;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #1315D3;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1315D3;
 }
 
 .img-centered {
@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #1315D3;
+    background: #EFFF07;
 }
 
 header .container {
@@ -180,8 +180,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #1315D3;
+    background: #EFFF07;
 }
 
 @media(max-width:767px) {
@@ -253,7 +253,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #1315D3;
     font-size: 20px;
     color: #fff;
     background: 0 0;
@@ -268,7 +268,15 @@ section.success {
     color: #18bc9c;
     background: #fff;
 }
-
+.btn-custom{
+    border: none !important;
+    background-color: #81aad3;
+    color: #fff;
+}
+.btn-custom:hover{
+    background: #1315D3;
+    color: #fff;
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
