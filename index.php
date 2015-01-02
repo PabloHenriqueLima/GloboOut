@@ -82,7 +82,7 @@
                     <img class="img-circle img-responsive" src="img/logo.gif" alt=""/>
                     <span class="name">Globo Informática</span>
                     <hr class="star-light">
-                    <span class="skills">Cuidado bem do seu computador</span>
+                    <span class="skills">Loja especializada em  em manutenção de computadores</span>
                 </div>
             </div>
         </div>

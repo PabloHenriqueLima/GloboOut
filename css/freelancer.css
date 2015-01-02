@@ -31,9 +31,8 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #1315D3;
+    color: #D52554;
 }
-
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -56,21 +55,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #1315D3;
+    border-color: #D52554;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #1315D3;
+    background-color: #D52554;
 }
 
 hr.star-primary {
-    border-color: #1315D3;
+    border-color: #D52554;
 }
 
 hr.star-primary:after {
     color: #fff;
-    background-color: #1315D3;
+    background-color: #D52554;
 }
 
 .img-centered {
@@ -79,10 +78,12 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #1315D3;
+    color: #D52554;
     background: #EFFF07;
 }
-
+.content-consult > span{
+    color: #d30018;
+}
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
