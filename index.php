@@ -174,7 +174,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <p class="text-center">
+                <p class="text-center content-consult">
                     Através do nosso site você pode ficar sabendo do status atual do serviço solicitado.
                     Insira o código do serviço no campo abaixo e clique em consultar status.
                 </p>
@@ -188,7 +188,7 @@
 
             </div> <!-- Col-lg-8 -->
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline btn-custom">Consultar Status</a>
+                <a href="#" class="btn btn-lg btn-outline btn-custom btn-consult">Consultar Status</a>
             </div>
         </div>
     </div>
@@ -418,7 +418,7 @@
             </div>
         </div>
     </div>
-</div>=
+</div>
 <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -431,7 +431,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Colaboradores</h2>
+                        <h2>Funcionarios</h2>
                         <hr class="star-primary">
                         <img src="img/gallery/06.jpg" class="img-responsive img-centered" alt="">
                         <p>Qualidade e rapidez nos serviços.</p>

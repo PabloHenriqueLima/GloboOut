@@ -36,3 +36,18 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Ajax
+
+$('.btn-consult').click(function (e) {
+    var codigoServico = $('#codigoServico').val();
+    e.preventDefault();
+    $.post('serviceStatus.php',{codigoServico:codigoServico},function(response){
+        var data = JSON.parse(response);
+        var text = 'Senhor(a) <span>' + data.cliente + '</span>' +
+            ' o seu equipamento: <span>' + data.equipamento + '</span>' +
+            ' com entrada em: <span>'+ data.dataEntrada + '</span>' +
+            ' encontra-se com o status: <span>' + data.status;
+        $('.content-consult').html(text);
+    });
+});
