@@ -79,6 +79,7 @@
             <div class="col-lg-12">
                 <img class="img-responsive" src="img/globo-logo.png" alt="">
                 <div class="intro-text">
+                    <img class="img-circle img-responsive" src="img/logo.gif" alt=""/>
                     <span class="name">Globo Informática</span>
                     <hr class="star-light">
                     <span class="skills">Cuidado bem do seu computador</span>
