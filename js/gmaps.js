@@ -1,7 +1,7 @@
 function initialize() {
     var GloboPlace = new google.maps.LatLng(-5.106367, -42.762116);
     var mapOptions = {
-        zoom: 15,
+        zoom: 17,
         center: GloboPlace
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'),
