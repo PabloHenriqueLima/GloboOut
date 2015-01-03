@@ -85,7 +85,9 @@
                     <img class="img-circle img-responsive" src="img/logo.gif" alt=""/>
                     <span class="name">Globo Informática</span>
                     <hr class="star-light">
-                    <span class="skills">Loja especializada em  em manutenção de computadores</span>
+                    <span class="skills">Loja especializada em manutenção de computadores <br/>
+                    monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabilizadores.
+                    </span>
                 </div>
             </div>
         </div>
@@ -271,16 +273,10 @@
                             <a href="https://www.facebook.com/globoinformaticabrasil" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            <a href="https://plus.google.com/108958256866404594311/posts?hl=pt_BR" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            <a href="https://twitter.com/InformatGlobo" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -414,7 +410,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Diretor-Presidente e funcionaria</h2>
+                        <h2>Diretor-Presidente e funcionária</h2>
                         <hr class="star-primary">
                         <img src="img/gallery/05.jpg" class="img-responsive img-centered" alt="">
                         <p>Profissionais qualificados.</p>
@@ -437,7 +433,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Funcionarios</h2>
+                        <h2>Funcionários</h2>
                         <hr class="star-primary">
                         <img src="img/gallery/06.jpg" class="img-responsive img-centered" alt="">
                         <p>Qualidade e rapidez nos serviços.</p>
