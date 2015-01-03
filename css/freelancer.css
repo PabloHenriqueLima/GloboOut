@@ -42,7 +42,11 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
 }
-
+#map-canvas {
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";

@@ -9,6 +9,9 @@ $sql->execute();
 $sql->store_result();
 $sql->bind_result($equipamento,$entrada,$status,$cliente);
 $sql->fetch();
+
+$entrada = strtotime($entrada);
+$entrada = date("d-m-Y H:i",$entrada);
 if($sql->num_rows >0){
    $data = [
        'equipamento'=>$equipamento,

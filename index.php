@@ -65,6 +65,9 @@
                 <li class="page-scroll">
                     <a href="#contact">contato</a>
                 </li>
+                <li class="page-scroll">
+                    <a href="#footer">Localização</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -250,13 +253,16 @@
 </section>
 
 <!-- Footer -->
-<footer class="text-center">
+<footer class="text-center" id="footer">
     <div class="footer-above">
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Localização</h3>
-                    <p>Quadra 163, Casa 18, Dirceu II</p>
+                    <p>Quadra 163, Casa 18, Dirceu II <br/>
+                    Telefone: (86) 3231-8186
+                    </p>
+                    <div id="map-canvas"></div>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Globo na Web</h3>
@@ -445,6 +451,9 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+
+<!--Google Maps-->
+<script src="js/gmaps.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
