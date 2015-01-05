@@ -1,25 +1,43 @@
 module.exports = function(grunt) {
-    grunt.initConfig({
 
-        imageoptim: {
-            myPngs: {
-                options: {
-                    jpegMini: false,
-                    imageAlpha: true,
-                    quitAfter: true
-                },
-                src: ['img/gallery/*']
+    grunt.initConfig({
+        concat: {
+            options: {
+                separator: ';'
             },
-            myJpgs: {
-                options: {
-                    jpegMini: true,
-                    imageAlpha: false,
-                    quitAfter: true
+            dist: {
+                src: ['src/*.js'],
+                dest: 'dist/built.js'
+            }
+        },
+        htmlcompressor: {
+            compile: {
+                files: {
+                    'dist/index.html': 'src/index.html'
                 },
-                src: ['img/gallery']
+                options: {
+                    type: 'html',
+                    preserveServerScript: true
+                }
+            }
+        },
+        uglify: {
+            my_target: {
+                files: {
+                    'dist/js/built.min.js': ['src/js/*.js']
+                }
+            }
+        },
+        cssmin: {
+            target: {
+                files: {
+                    'dist/css/built.min.css': ['src/css/*.css']
+                }
             }
         }
-
     });
-    grunt.loadNpmTasks('grunt-imageoptim');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-htmlcompressor');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 };
