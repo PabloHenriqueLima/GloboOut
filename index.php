@@ -9,7 +9,10 @@
     <meta name=author content="">
     <title>Globo informática</title>
     <link rel=icon href=favicon.ico />
-    <link href="dist/css/built.min.css" rel=stylesheet>
+<!--    <link href="dist/css/built.min.css" rel=stylesheet>-->
+    <link rel="stylesheet" href="src/css/bootstrap.css"/>
+    <link rel="stylesheet" href="src/css/freelancer.css"/>
+    <link rel="stylesheet" href="src/css/least.css"/>
 
     <link href="font-awesome/css/font-awesome.min.css" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet type="text/css">
@@ -66,6 +69,112 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
         </div>
     </div>
 </header>
+
+<!--///// GALERRY ////////-->
+<section class="gallerySection">
+    <ul id="gallery">
+        <li id="fullPreview"></li>
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/01.jpg"></a>
+            <img data-original="img/thumb/01.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><h2>Loja</h2></li>
+                    <li><p></p></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">
+                <strong>
+                    Conserto de placa mães
+                </strong>
+            </div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/02.jpg"></a>
+            <img data-original="img/thumb/02.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><h2></h2></li>
+                    <li><p>Clique para visualizar melhor</p></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">
+                <strong>
+                    Conserto de placa mães
+                </strong>
+            </div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/03.jpg"></a>
+            <img data-original="img/thumb/03.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><h2>Loja</h2></li>
+                    <li><p></p></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">
+                <strong>
+                    Conserto de placa mães
+                </strong>
+            </div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/04.jpg"></a>
+            <img data-original="img/thumb/04.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><h2>Loja</h2></li>
+                    <li><p></p></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">
+                <strong>
+                    Conserto de placa mães
+                </strong>
+            </div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/05.jpg"></a>
+            <img data-original="img/thumb/05.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><h2>Loja</h2></li>
+                    <li><p></p></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">
+                <strong>
+                    Conserto de placa mães
+                </strong>
+            </div>
+        </li>
+        <!-- each pictury -->
+
+
+    </ul><!-- all -->
+</section>
+<!--///// GALERRY///////-->
+
 <section class=success id=about>
     <div class=container>
         <div class=row>
@@ -192,14 +301,16 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
     </a>
 </div>
 <script src="dist/js/jquery.js"></script>
-<script src="dist/js/built.min.js"></script>
-<!--<script src="js/gmaps.js"></script>-->
-<!--<script src="js/bootstrap.min.js"></script>-->
-<!--<script src="js/jquery.easing.min.js"></script>-->
-<!--<script src="js/classie.js"></script>-->
-<!--<script src="js/cbpAnimatedHeader.js"></script>-->
-<!--<script src="js/jqBootstrapValidation.js"></script>-->
-<!--<script src="js/contact_me.js"></script>-->
-<!--<script src="js/freelancer.js"></script>-->
+<script src="src/js/least.min.js"></script>
+<script src="src/js/jquery.lazyload.min.js"></script>
+<script src="src/js/gmaps.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+<script src="src/js/jquery.easing.min.js"></script>
+<script src="src/js/classie.js"></script>
+<script src="src/js/cbpAnimatedHeader.js"></script>
+<script src="src/js/jqBootstrapValidation.js"></script>
+<script src="src/js/contact_me.js"></script>
+<script src="src/js/freelancer.js"></script>
+<!--<script src="dist/js/built.min.js"></script>-->
 </body>
 </html>

@@ -22,3 +22,8 @@ function loadScript() {
 
 window.onload = loadScript;
 //-5.106367, -42.762116
+
+
+$(function () {
+   $("#gallery").least();
+});
