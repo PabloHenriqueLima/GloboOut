@@ -77,100 +77,87 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
         <!-- each pictury -->
         <li>
             <a href="img/full/01.jpg"></a>
-            <img data-original="img/thumb/01.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <img data-original="img/thumb/01.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
                 <ul>
-                    <li><h2>Loja</h2></li>
-                    <li><p></p></li>
+                    <li><span class="ampliar">Ampliar</span></li>
                 </ul>
             </div>
 
-            <div class="projectInfo">
-                <strong>
-                    Conserto de placa mães
-                </strong>
-            </div>
+            <div class="projectInfo"> Conserto de placa mãe</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
         <li>
             <a href="img/full/02.jpg"></a>
-            <img data-original="img/thumb/02.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <img data-original="img/thumb/02.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
                 <ul>
-                    <li><h2></h2></li>
-                    <li><p>Clique para visualizar melhor</p></li>
+                    <li><span class="ampliar">Ampliar</span></li>
                 </ul>
             </div>
 
-            <div class="projectInfo">
-                <strong>
-                    Conserto de placa mães
-                </strong>
-            </div>
+            <div class="projectInfo"> Conserto de placa mãe</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
         <li>
             <a href="img/full/03.jpg"></a>
-            <img data-original="img/thumb/03.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <img data-original="img/thumb/03.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
                 <ul>
-                    <li><h2>Loja</h2></li>
-                    <li><p></p></li>
+                    <li><span class="ampliar">Ampliar</span></li>
                 </ul>
             </div>
 
-            <div class="projectInfo">
-                <strong>
-                    Conserto de placa mães
-                </strong>
-            </div>
+            <div class="projectInfo"> Conserto de placa mãe</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
         <li>
             <a href="img/full/04.jpg"></a>
-            <img data-original="img/thumb/04.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <img data-original="img/thumb/04.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
                 <ul>
-                    <li><h2>Loja</h2></li>
-                    <li><p></p></li>
+                    <li><span class="ampliar">Ampliar</span></li>
                 </ul>
             </div>
 
-            <div class="projectInfo">
-                <strong>
-                    Conserto de placa mães
-                </strong>
-            </div>
+            <div class="projectInfo"> Conserto de placa mãe</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
         <li>
             <a href="img/full/05.jpg"></a>
-            <img data-original="img/thumb/05.png" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <img data-original="img/thumb/05.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
                 <ul>
-                    <li><h2>Loja</h2></li>
-                    <li><p></p></li>
+                    <li><span class="ampliar">Ampliar</span></li>
                 </ul>
             </div>
 
-            <div class="projectInfo">
-                <strong>
-                    Conserto de placa mães
-                </strong>
-            </div>
+            <div class="projectInfo"> Conserto de placa mãe</div>
         </li>
         <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/06.jpg"></a>
+            <img data-original="img/thumb/07.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
 
-
+            <div class="projectInfo"></div>
+        </li>
+        <!-- each pictury -->
     </ul><!-- all -->
 </section>
 <!--///// GALERRY///////-->
