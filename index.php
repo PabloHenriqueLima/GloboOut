@@ -9,10 +9,10 @@
     <meta name=author content="">
     <title>Globo informática</title>
     <link rel=icon href=favicon.ico />
-<!--    <link href="dist/css/built.min.css" rel=stylesheet>-->
-    <link rel="stylesheet" href="src/css/bootstrap.css"/>
-    <link rel="stylesheet" href="src/css/freelancer.css"/>
-    <link rel="stylesheet" href="src/css/least.css"/>
+    <link href="dist/css/built.min.css" rel=stylesheet>
+<!--    <link rel="stylesheet" href="src/css/bootstrap.css"/>-->
+<!--    <link rel="stylesheet" href="src/css/freelancer.css"/>-->
+<!--    <link rel="stylesheet" href="src/css/least.css"/>-->
 
     <link href="font-awesome/css/font-awesome.min.css" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet type="text/css">
@@ -21,6 +21,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <meta name="google-site-verification" content="zQ53RCibDH0q66bF8lKSpWICmZ5htWjjJrRHeC27ZQ4" />
 </head>
 <body id=page-top class=index>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -85,7 +86,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"> Conserto de placa mãe</div>
+            <div class="projectInfo">Técnico da Globo Informática</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
@@ -99,7 +100,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"> Conserto de placa mãe</div>
+            <div class="projectInfo">Setor de recuperação de nootebooks</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
@@ -113,7 +114,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"> Conserto de placa mãe</div>
+            <div class="projectInfo">Técnico da Globo Informática</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
@@ -127,7 +128,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"> Conserto de placa mãe</div>
+            <div class="projectInfo">Recepção</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
@@ -141,12 +142,27 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"> Conserto de placa mãe</div>
+            <div class="projectInfo">Funcionários da Globo Informática</div>
+        </li>
+        <!-- each pictury -->
+
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/06.jpg"></a>
+            <img data-original="img/thumb/06.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">Setor de recuperação de placa mãe</div>
         </li>
         <!-- each pictury -->
         <!-- each pictury -->
         <li>
-            <a href="img/full/06.jpg"></a>
+            <a href="img/full/07.jpg"></a>
             <img data-original="img/thumb/07.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
             <div class="overLayer"></div>
             <div class="infoLayer">
@@ -155,7 +171,63 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                 </ul>
             </div>
 
-            <div class="projectInfo"></div>
+            <div class="projectInfo">Técnico e aprendiz</div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/08.jpg"></a>
+            <img data-original="img/thumb/08.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">Setor de montagem, manutenção e instalação de sistemas</div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/09.jpg"></a>
+            <img data-original="img/thumb/09.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">Venda de periféricos</div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/10.jpg"></a>
+            <img data-original="img/thumb/10.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">Setor de recuperação de placa mãe</div>
+        </li>
+        <!-- each pictury -->
+        <!-- each pictury -->
+        <li>
+            <a href="img/full/11.jpg"></a>
+            <img data-original="img/thumb/11.jpg" src="img/effects/white.gif" width="180" height="120" alt="Ocean" />
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li><span class="ampliar">Ampliar</span></li>
+                </ul>
+            </div>
+
+            <div class="projectInfo">Setor de recuperação de placa mãe</div>
         </li>
         <!-- each pictury -->
     </ul><!-- all -->
@@ -288,16 +360,16 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
     </a>
 </div>
 <script src="dist/js/jquery.js"></script>
-<script src="src/js/least.min.js"></script>
-<script src="src/js/jquery.lazyload.min.js"></script>
-<script src="src/js/gmaps.js"></script>
-<script src="src/js/bootstrap.min.js"></script>
-<script src="src/js/jquery.easing.min.js"></script>
-<script src="src/js/classie.js"></script>
-<script src="src/js/cbpAnimatedHeader.js"></script>
-<script src="src/js/jqBootstrapValidation.js"></script>
-<script src="src/js/contact_me.js"></script>
-<script src="src/js/freelancer.js"></script>
-<!--<script src="dist/js/built.min.js"></script>-->
+<!--<script src="src/js/least.min.js"></script>-->
+<!--<script src="src/js/jquery.lazyload.min.js"></script>-->
+<!--<script src="src/js/gmaps.js"></script>-->
+<!--<script src="src/js/bootstrap.min.js"></script>-->
+<!--<script src="src/js/jquery.easing.min.js"></script>-->
+<!--<script src="src/js/classie.js"></script>-->
+<!--<script src="src/js/cbpAnimatedHeader.js"></script>-->
+<!--<script src="src/js/jqBootstrapValidation.js"></script>-->
+<!--<script src="src/js/contact_me.js"></script>-->
+<!--<script src="src/js/freelancer.js"></script>-->
+<script src="dist/js/built.min.js"></script>
 </body>
 </html>
