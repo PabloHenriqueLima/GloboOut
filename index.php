@@ -10,13 +10,15 @@
     <title>Globo informática</title>
     <link rel=icon href=favicon.ico />
     <link href="dist/css/built.min.css" rel=stylesheet>
-<!--    <link rel="stylesheet" href="src/css/bootstrap.css"/>-->
-<!--    <link rel="stylesheet" href="src/css/freelancer.css"/>-->
-<!--    <link rel="stylesheet" href="src/css/least.css"/>-->
+
+<!--        <link rel="stylesheet" href="src/css/bootstrap.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/freelancer.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/least.css"/>-->
 
     <link href="font-awesome/css/font-awesome.min.css" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel=stylesheet type="text/css">
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -358,7 +360,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
         <i class="fa fa-chevron-up"></i>
     </a>
 </div>
-<!--<script src="dist/js/jquery.js"></script>-->
+<script src="dist/js/jquery.js"></script>
 <!--<script src="src/js/least.min.js"></script>-->
 <!--<script src="src/js/jquery.lazyload.min.js"></script>-->
 <!--<script src="src/js/gmaps.js"></script>-->

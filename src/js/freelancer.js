@@ -45,9 +45,40 @@ $('.btn-consult').click(function (e) {
     $.post('serviceStatus.php',{codigoServico:codigoServico},function(response){
         var data = JSON.parse(response);
         var text = 'Senhor(a) <span>' + data.cliente + '</span>' +
-            ' o seu equipamento: <span>' + data.equipamento + '</span>' +
+            ' o seu equipamento: <span>' + data.equipamento + '</span><br/>' +
             ' com entrada em: <span>'+ data.dataEntrada + '</span>' +
             ' encontra-se com o status: <br /><span>' + data.status;
-        $('.content-consult').html(text);
+            if(data.valor && data.referente){
+             var textCont = '<br />valor do orçamento: '+ data.valor +' R$'+ '<br />' +
+                            'referente à: ' + data.referente;
+                var out = text.concat(textCont);
+                $('.content-consult').html(out);
+            }else{
+                $('.content-consult').html(text);
+            }
+
     });
 });
+
+//-- Gallery
+
+$(function () {
+    $("#gallery").least();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
