@@ -21,7 +21,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta name="google-site-verification" content="zQ53RCibDH0q66bF8lKSpWICmZ5htWjjJrRHeC27ZQ4" />
 </head>
 <body id=page-top class=index>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -359,7 +358,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
         <i class="fa fa-chevron-up"></i>
     </a>
 </div>
-<script src="dist/js/jquery.js"></script>
+<!--<script src="dist/js/jquery.js"></script>-->
 <!--<script src="src/js/least.min.js"></script>-->
 <!--<script src="src/js/jquery.lazyload.min.js"></script>-->
 <!--<script src="src/js/gmaps.js"></script>-->
