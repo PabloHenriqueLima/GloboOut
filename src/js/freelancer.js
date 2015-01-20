@@ -39,29 +39,72 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Ajax
 
+// Consultar Status do Serviço //
 $('.btn-consult').click(function (e) {
     var codigoServico = $('#codigoServico').val();
     e.preventDefault();
-    $.post('serviceStatus.php',{codigoServico:codigoServico},function(response){
-        var data = JSON.parse(response);
-        var text = 'Senhor(a) <span>' + data.cliente + '</span>' +
-            ' o seu equipamento: <span>' + data.equipamento + '</span><br/>' +
-            ' com entrada em: <span>'+ data.dataEntrada + '</span>' +
-            ' encontra-se com o status: <br /><span>' + data.status;
+
+    $.ajax({
+        url:'statusServico.php',
+        type:'POST',
+        data:{codigoServico:codigoServico},
+        beforeSend:function(){
+            $(".btn-consult").html("<span class=\"glyphicon glyphicon-refresh glyphicon-refresh-animate\"></span> Carregando ...");
+        },
+        success:function(response){
+            console.log(response);
+
+            var data = JSON.parse(response);
+            var text = 'Senhor(a) <span>' + data.cliente + '</span>' +
+                ' o seu equipamento: <span>' + data.equipamento + '</span><br/>' +
+                ' com entrada em: <span>'+ data.dataEntrada + '</span>' +
+                ' encontra-se: <br /><span>' + data.status;
             if(data.valor && data.referente){
-             var textCont = '<br />valor do orçamento: '+ data.valor +' R$'+ '<br />' +
-                            'referente à: ' + data.referente;
+                var textCont = ' no valor de '+ data.valor +' R$'+ '<br />' +
+                    'referente a: ' + data.referente + '<br />';
+                var botao = $("#autorizarServico");
+                botao.attr('cs',codigoServico);
+                if(data.aprovado){
+
+                }else{
+                    botao.show();
+                }
                 var out = text.concat(textCont);
                 $('.content-consult').html(out);
+                $(".btn-consult").html("Consultar Status");
             }else{
                 $('.content-consult').html(text);
+                $(".btn-consult").html("Consultar Status");
             }
 
+        }
     });
 });
 
-//-- Gallery
+$("#autorizarServico").on("click", function () {
+    var codigoServico = $(this).attr('cs');
+    alertify.confirm().set({
+        'title':'Confirmação',
+        'labels':{ok:'Sim',cancel:'Agora não'}
+    });
+    alertify.confirm("Autorizar o serviço ? *Essa ação não pode ser desfeita.",
+        function(){
+            var botao = $("#autorizarServico");
+           var codigoOrcamento =  botao.attr('cs');
+            $.post('setOrcamento.php',{codigoOrcamento:codigoOrcamento}, function (result) {
+               console.debug(result);
+            });
+            alertify.success('Serviço autorizado');
+            botao.hide();
+        },
+        function(){
+            alertify.error('Estamos aguardando sua autorização');
+        });
 
+
+});
+
+//-- Gallery
 $(function () {
     $("#gallery").least();
 });

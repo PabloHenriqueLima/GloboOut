@@ -9,11 +9,13 @@
     <meta name=author content="">
     <title>Globo informática</title>
     <link rel=icon href=favicon.ico />
-    <link href="dist/css/built.min.css" rel=stylesheet>
+<!--    <link href="dist/css/built.min.css" rel=stylesheet>-->
 
-<!--        <link rel="stylesheet" href="src/css/bootstrap.css"/>-->
-<!--        <link rel="stylesheet" href="src/css/freelancer.css"/>-->
-<!--        <link rel="stylesheet" href="src/css/least.css"/>-->
+        <link rel="stylesheet" href="src/css/bootstrap.css"/>
+        <link rel="stylesheet" href="src/css/freelancer.css"/>
+        <link rel="stylesheet" href="src/css/least.css"/>
+        <link rel="stylesheet" href="src/css/alertify.css"/>
+        <link rel="stylesheet" href="src/css/themes/bootstrap.rtl.css"/>
 
     <link href="font-awesome/css/font-awesome.min.css" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet type="text/css">
@@ -236,6 +238,27 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
 <!--///// GALERRY///////-->
 
 <section class=success id=about>
+
+    <!-- Loading -->
+    <div class="modal fade" id="modalLoading" tabindex="-1" role="dialog" aria-labelledby="Loading" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loading -->
+
     <div class=container>
         <div class=row>
             <div class="col-lg-12 text-center">
@@ -249,6 +272,9 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                     Através do nosso site você pode ficar sabendo do status atual do serviço solicitado.
                     Insira o código do serviço no campo abaixo e clique em consultar status.
                 </p>
+                <div class="text-center">
+                <a href="#" id="autorizarServico" class="btn btn-md btn-outline btn-custom btn-consult">Autorizar Serviço</a>
+                </div>
                 <form>
                     <div class=form-group>
                         <label for=codigoServico></label>
@@ -361,16 +387,17 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
     </a>
 </div>
 <script src="dist/js/jquery.js"></script>
-<!--<script src="src/js/least.min.js"></script>-->
-<!--<script src="src/js/jquery.lazyload.min.js"></script>-->
-<!--<script src="src/js/gmaps.js"></script>-->
-<!--<script src="src/js/bootstrap.min.js"></script>-->
-<!--<script src="src/js/jquery.easing.min.js"></script>-->
-<!--<script src="src/js/classie.js"></script>-->
-<!--<script src="src/js/cbpAnimatedHeader.js"></script>-->
-<!--<script src="src/js/jqBootstrapValidation.js"></script>-->
-<!--<script src="src/js/contact_me.js"></script>-->
-<!--<script src="src/js/freelancer.js"></script>-->
-<script src="dist/js/built.min.js"></script>
+<script src="src/js/least.min.js"></script>
+<script src="src/js/jquery.lazyload.min.js"></script>
+<script src="src/js/gmaps.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+<script src="src/js/jquery.easing.min.js"></script>
+<script src="src/js/classie.js"></script>
+<script src="src/js/cbpAnimatedHeader.js"></script>
+<script src="src/js/jqBootstrapValidation.js"></script>
+<script src="src/js/contact_me.js"></script>
+<script src="src/js/freelancer.js"></script>
+<script src="src/js/alertify.js"></script>
+<!--<script src="dist/js/built.min.js"></script>-->
 </body>
 </html>
