@@ -21,6 +21,8 @@ $sql->bind_result($referente,$valor,$aprovado);
 $sql->fetch();
 if($sql->num_rows >0) {
     $orc = true;
+}else{
+    $orc = false;
 }
 
 if($orc){

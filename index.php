@@ -273,7 +273,7 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
                     Insira o código do serviço no campo abaixo e clique em consultar status.
                 </p>
                 <div class="text-center">
-                <a href="#" id="autorizarServico" class="btn btn-md btn-outline btn-custom btn-consult">Autorizar Serviço</a>
+                <a href="#" id="autorizarServico" class="btn btn-md btn-outline btn-custom">Autorizar Serviço</a>
                 </div>
                 <form>
                     <div class=form-group>
