@@ -9,13 +9,13 @@
     <meta name=author content="">
     <title>Globo informática</title>
     <link rel=icon href=favicon.ico />
-<!--    <link href="dist/css/built.min.css" rel=stylesheet>-->
+    <link href="dist/css/built.min.css" rel=stylesheet>
 
-        <link rel="stylesheet" href="src/css/bootstrap.css"/>
-        <link rel="stylesheet" href="src/css/freelancer.css"/>
-        <link rel="stylesheet" href="src/css/least.css"/>
-        <link rel="stylesheet" href="src/css/alertify.css"/>
-        <link rel="stylesheet" href="src/css/themes/bootstrap.rtl.css"/>
+<!--        <link rel="stylesheet" href="src/css/bootstrap.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/freelancer.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/least.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/alertify.css"/>-->
+<!--        <link rel="stylesheet" href="src/css/themes/bootstrap.rtl.css"/>-->
 
     <link href="font-awesome/css/font-awesome.min.css" rel=stylesheet type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet type="text/css">
@@ -56,6 +56,7 @@
         </div>
     </div>
 </nav>
+
 <header>
     <div class=container>
         <div class=row>
@@ -387,17 +388,17 @@ monitores, impressoras, notebooks, tvs, dvds, placa de vídeo, fontes, estabiliz
     </a>
 </div>
 <script src="dist/js/jquery.js"></script>
-<script src="src/js/least.min.js"></script>
-<script src="src/js/jquery.lazyload.min.js"></script>
-<script src="src/js/gmaps.js"></script>
-<script src="src/js/bootstrap.min.js"></script>
-<script src="src/js/jquery.easing.min.js"></script>
-<script src="src/js/classie.js"></script>
-<script src="src/js/cbpAnimatedHeader.js"></script>
-<script src="src/js/jqBootstrapValidation.js"></script>
-<script src="src/js/contact_me.js"></script>
-<script src="src/js/freelancer.js"></script>
-<script src="src/js/alertify.js"></script>
-<!--<script src="dist/js/built.min.js"></script>-->
+<!--<script src="src/js/least.min.js"></script>-->
+<!--<script src="src/js/jquery.lazyload.min.js"></script>-->
+<!--<script src="src/js/gmaps.js"></script>-->
+<!--<script src="src/js/bootstrap.min.js"></script>-->
+<!--<script src="src/js/jquery.easing.min.js"></script>-->
+<!--<script src="src/js/classie.js"></script>-->
+<!--<script src="src/js/cbpAnimatedHeader.js"></script>-->
+<!--<script src="src/js/jqBootstrapValidation.js"></script>-->
+<!--<script src="src/js/contact_me.js"></script>-->
+<!--<script src="src/js/freelancer.js"></script>-->
+<!--<script src="src/js/alertify.js"></script>-->
+<script src="dist/js/built.min.js"></script>
 </body>
 </html>
