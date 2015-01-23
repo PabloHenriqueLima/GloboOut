@@ -22,9 +22,26 @@ module.exports = function(grunt) {
             }
         },
         uglify: {
+            options:{
+                mangle:false
+            },
             my_target: {
                 files: {
-                    'dist/js/built.min.js': ['src/js/jquery.js','src/js/bootstrap.min.js','src/js/least.min.js','src/js/jquery.lazyload.min.js','src/js/*.js']
+                    'dist/js/built.min.js': [
+                        'src/js/vendor/jquery.js',
+                        'src/js/vendor/bootstrap.min.js',
+                        'src/js/plugins/least.min.js',
+                        'src/js/plugins/jquery.lazyload.min.js',
+                        'src/js/plugins/gmaps.js',
+                        'src/js/plugins/jquery.easing.min.js',
+                        'src/js/plugins/classie.js',
+                        'src/js/plugins/cbpAnimatedHeader.js',
+                        'src/js/plugins/jqBootstrapValidation.js',
+                        'src/js/plugins/contact_me.js',
+                        'src/js/plugins/alertify.js',
+                        'src/js/plugins/freelancer.js'
+
+                    ]
                 }
             }
         },
