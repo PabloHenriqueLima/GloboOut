@@ -96,6 +96,7 @@ $("#autorizarServico").on("click", function () {
             });
             alertify.success('Serviço autorizado');
             botao.hide();
+            $(".content-consult").text(' ');
         },
         function(){
             alertify.error('Estamos aguardando sua autorização');

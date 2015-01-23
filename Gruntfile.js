@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         htmlcompressor: {
             compile: {
                 files: {
-                    'dist/index.html': 'src/index.html'
+                    'dist/index.php': 'index.php'
                 },
                 options: {
                     type: 'html',
@@ -24,14 +24,14 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/js/built.min.js': ['src/js/*.js']
+                    'dist/js/built.min.js': ['src/js/jquery.js','src/js/bootstrap.min.js','src/js/least.min.js','src/js/jquery.lazyload.min.js','src/js/*.js']
                 }
             }
         },
         cssmin: {
             target: {
                 files: {
-                    'dist/css/built.min.css': ['src/css/*.css']
+                    'dist/css/built.min.css': ['src/css/*.css','src/css/themes/semantic.css']
                 }
             }
         }
